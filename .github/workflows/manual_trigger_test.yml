@@ -18,12 +18,3 @@ jobs:
       - run: |
           echo "Hello ${{ github.event.inputs.name }}!"
           echo "- in ${{ github.event.inputs.home }}!"
-      - name: Jira Add Comment
-        # You may pin to the exact commit or the version.
-        # uses: atlassian/gajira-comment@8ec356b5df49f1325653db7ee2da2b59a1d78203
-        uses: atlassian/gajira-comment@v2.0.2
-        with:
-          # Key of the issue to be commented on
-          issue: AP-2720
-          # Comment
-          comment: Da comment
