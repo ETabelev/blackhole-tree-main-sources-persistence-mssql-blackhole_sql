@@ -24,6 +24,6 @@ jobs:
         uses: atlassian/gajira-comment@v2.0.2
         with:
           # Key of the issue to be commented on
-          issue: https://symend.atlassian.net/browse/AP-2720
+          issue: AP-2720
           # Comment
           comment: Da comment
